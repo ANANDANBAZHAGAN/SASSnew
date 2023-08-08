@@ -1,0 +1,42 @@
+@import '../sass1/variable.scss';
+.box{
+    color: aqua;
+    font-size: 15px;
+    background-color: $bgcolur;
+}
+nav{
+    ul{
+list-style: none;
+    }
+    li{
+display: inline-block;
+color: green;
+    };
+}
+.box1{
+    padding: 10px;
+    color: aqua;
+    font-size: 20px;
+}
+.box2{
+    @extend .box1;
+    background-color: blue;
+}
+.box3{
+    @extend .box1;
+    background-color: black;
+
+}
+.box4{
+    @extend .box2
+
+}
+@mixin newpara{
+    color: bisque;
+    padding-left: 20px;
+    background-color: aquamarine;
+    
+}
+.para{
+    @include newpara
+}

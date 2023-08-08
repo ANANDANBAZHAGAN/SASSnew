@@ -1,0 +1,33 @@
+.box {
+  color: aqua;
+  font-size: 15px;
+  background-color: green;
+}
+
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  color: green;
+}
+
+.box1, .box3, .box2, .box4 {
+  padding: 10px;
+  color: aqua;
+  font-size: 20px;
+}
+
+.box2, .box4 {
+  background-color: blue;
+}
+
+.box3 {
+  background-color: black;
+}
+
+.para {
+  color: bisque;
+  padding-left: 20px;
+  background-color: aquamarine;
+}/*# sourceMappingURL=sass.css.map */
